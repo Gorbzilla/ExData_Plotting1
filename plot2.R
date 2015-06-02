@@ -1,3 +1,7 @@
+# plots global active power against datetime
+# only reads the raw file in to object fl if fl doesnt
+# already exist - saves time
+
 plot2 <- function () {
     
     if (!exists("fl")) {

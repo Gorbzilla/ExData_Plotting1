@@ -1,3 +1,7 @@
+# plots histogram of global active power
+# only reads the raw file in to object fl if fl doesnt
+# already exist - saves time
+
 plot1 <- function () {
     
     if (!exists("fl")) {

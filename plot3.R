@@ -1,3 +1,7 @@
+# plots energy sub metering x3 against datetime
+# only reads the raw file in to object fl if fl doesnt
+# already exist - saves time
+
 plot3 <- function () {
     
     if (!exists("fl")) {

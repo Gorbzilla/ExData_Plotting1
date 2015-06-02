@@ -1,3 +1,7 @@
+# plots 4 charts on the same plot area
+# only reads the raw file in to object fl if fl doesnt
+# already exist - saves time
+
 plot4 <- function () {
     
     if (!exists("fl")) {
